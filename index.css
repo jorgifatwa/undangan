@@ -1,0 +1,545 @@
+body{
+    background-color: antiquewhite;
+}
+
+@font-face {
+    font-family: 'cambriaregular';
+    src: url('fonts/cambria/cambria-font-for-windows-webfont.woff2') format('woff2'),
+         url('fonts/cambria/cambria-font-for-windows-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* @font-face {
+    font-family: 'loveland';
+    src: url('fonts/apriljune/april_june-webfont.woff2') format('woff2'),
+         url('fonts/apriljune/april_june-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+@font-face {
+    font-family: 'happy_birthdayregular';
+    src: url('fonts/happybirthday/happy_birthday-webfont.woff2') format('woff2'),
+         url('fonts/happybirthday/happy_birthday-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pinyon';
+    src: url('fonts/pinyon/PinyonScript.woff2') format('woff2');
+    src: url('fonts/pinyon/PinyonScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'loveland';
+    src: url('fonts/loveland/Loveland_Personal_Use.woff2') format('woff2');
+    src: url('fonts/loveland/loveland-personal-use.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cover-title{
+    font-size: 26px;
+    font-family: 'cambriaregular' !important;
+}
+
+.cover-title-kedua{
+    font-size: 80px;
+    padding-right: 5%;
+    font-family: 'cambriaregular' !important;
+}
+
+.container-fluid {
+    height:100vh;
+    width: 100%;
+    background: url('images/cover_ahad.gif') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 0 !important;
+}
+.container-fluid-kedua {
+    height:50vh;
+    width: 100%;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.container-fluid-ketiga {
+    height:80vh;
+    width: 100%;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.not-support {
+    height:100vh;
+    text-align: center;
+    width: 100%;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.container-fluid-keempat {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* center di layar */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* paksa contain */
+  z-index: -1;
+  pointer-events: none;
+  background: #000; /* area kosong jadi hitam, biar kelihatan bedanya */
+}
+
+.container-fluid-kelima {
+    height:150vh;
+    width: 100%;
+    color: black;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.container-fluid-keenam {
+    height:100vh;
+    width: 100%;
+    color: black;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.container-fluid-ketuju {
+    height:60vh;
+    width: 100%;
+    color: black;
+    background: url('images/cover7.png') no-repeat center center;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.container-fluid-kesembilan {
+    height:120vh;
+    width: 100%;
+    color: black;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.container-fluid-kesepuluh {
+    height:90vh;
+    width: 100%;
+    color: black;
+    background-color: #f4f3f1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.container-fluid-kedelapan {
+    height:100vh;
+    width: 100%;
+    color: white;
+    background: url('images/cover_belakang.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    bottom: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.text-tamu{
+    font-family: 'cambriaregular' !important;
+    font-size: 10px !important;
+}
+
+.text-tamu-kesepuluh{
+    font-family: 'cambriaregular' !important;
+    font-size: 20px !important;
+}
+
+.btn-buka-undangan{
+    font-family: 'cambriaregular' !important;
+    font-size: 10px !important;
+    border-radius: 0.5rem !important;
+    border-color: #f4f3f1 !important;
+}
+
+.btn-copy{
+    font-family: 'cambriaregular' !important;
+    font-size: 10px !important;
+    border-radius: 0.5rem !important;
+    border-color: #f4f3f1 !important;
+}
+
+.btn-copy-dana{
+    font-family: 'cambriaregular' !important;
+    font-size: 10px !important;
+    border-radius: 0.5rem !important;
+    border-color: #f4f3f1 !important;
+}
+
+.btn-buka-lokasi{
+    left: 1% !important;
+    background-color: #000 !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 15px !important;
+    border-radius: 0.5rem !important;
+    border-color: #000 !important;
+    margin-left: 5% !important;
+    margin-bottom: 10% !important;
+    position: absolute;
+}
+
+.btn-buka-gift{
+    width: 200px !important;
+    background-color: #000 !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 15px !important;
+    border-radius: 0.5rem !important;
+    border-color: #000 !important;
+    margin-left: 5% !important;
+    position: absolute;
+}
+
+.content-kedua{
+    bottom: 10%;
+    position: absolute;
+    color: white;
+}
+.content-kedua{
+    transition: 4s ease-in-out;
+}
+.text-tamu-kedua{
+    font-family: 'cambriaregular' !important;
+    font-size: 15px !important;
+}
+
+.text-tamu-kedua{
+    font-family: 'cambriaregular' !important;
+    font-size: 15px !important;
+}
+
+.text-pengantin-ketiga{
+    font-family: 'cambriaregular' !important;
+    font-size: 35px !important;
+}
+
+.text-tamu-ketiga{
+    font-family: 'happy_birthdayregular' !important;
+    font-size: 15px !important;
+}
+
+.text-nama-ketiga{
+    font-family: 'cambriaregular' !important;
+    font-size: 35px !important;
+}
+
+.title-ketiga{
+    background-color: #000;
+    text-align: center;
+    color: white;
+}
+.gambar-ig{
+    cursor: pointer;
+}
+.text-pengantin-keempat{
+    font-family: 'cambriaregular' !important;
+    font-size: 45px !important;
+}
+.garis-vertikal{
+    border-left: 1px white solid;
+    height: 100px;
+    width: 0px;
+}
+
+.btn-outline-primary{
+    border-color: white !important;
+    font-family: 'cambriaregular' !important;
+    color: white !important;
+    border-radius: 0.5rem !important;
+}
+
+.btn-outline-primary:focus{
+    background-color: transparent !important;
+}
+
+.btn-outline-primary:before{
+    background-color: transparent !important;
+}
+
+.btn-outline-primary:default{
+    background-color: transparent !important;
+}
+
+.btn-outline-primary:active{
+    background-color: transparent !important;
+}
+
+#demo{
+    font-family: 'cambriaregular' !important;
+    font-size: 30px !important;
+}
+
+.acara-1{
+    background: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 2rem !important;
+}
+.text-pengantin-kelima{
+    text-align: left !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 35px !important;
+    padding-top: 3%;
+    padding-left: 5% !important;
+}
+
+.text-tamu-kelima{
+    text-align: left !important;
+    font-family: 'happy_birthdayregular' !important;
+    font-size: 16px !important;
+    padding-left: 5% !important;
+}
+
+.text-pengantin-keenam{
+    text-align: right !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 35px !important;
+    padding-top: 10%;
+    padding-right: 5% !important;
+}
+
+.text-pengantin-ketuju{
+    text-align: left !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 45px !important;
+    padding-top: 10%;
+    padding-left: 5% !important;
+}
+
+.text-tamu-keenam{
+    text-align: right !important;
+    font-family: 'happy_birthdayregular' !important;
+    font-size: 16px !important;
+    padding-right: 5% !important;
+}
+
+.icon-ring{
+    padding-left: 5% !important;
+}
+
+.cover-filter{
+    float: right;
+    border-collapse: collapse; 
+    border-radius: 1rem !important;
+    margin-right: 5% !important;
+}
+
+.btn-buka-filter{
+    float: right;
+    background-color: #000 !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 15px !important;
+    border-radius: 0.5rem !important;
+    border-color: #000 !important;
+    margin-right: 5% !important;
+    margin-bottom: 10% !important
+}
+.kesehatan{
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 1rem;
+}
+.text-tamu-kedelapan{
+    font-family: 'cambriaregular' !important;
+    font-size: 15px !important;
+}
+.ucapan{
+    font-family: 'cambriaregular' !important;
+    font-size: 12px !important;
+}
+.ucapan-orang{
+    text-align: left !important;
+    height: 250px;
+    background-color: transparent;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.btn-kirim{
+    background-color: #000 !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 15px !important;
+    border-radius: 0.5rem !important;
+    border-color: #000 !important;
+}
+
+.btn-hadir{
+    background-color: #000 !important;
+    font-family: 'cambriaregular' !important;
+    font-size: 12px !important;
+    height: 20px;
+    border: 0px;
+    border-radius: 0.2rem !important;
+    border-color: #000 !important;
+}
+
+.reveal{
+    position: relative;
+    opacity: 0;
+}
+
+.reveal.active{
+    opacity: 1;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.img-error{
+    padding: auto !important;
+}
+
+.text-not-support{
+    color: #01497f;
+    font-family: 'cambriaregular' !important;
+    font-size: 35px !important;
+}
+
+.text-not-support-dua{
+    color: #01497f;
+    font-family: 'cambriaregular' !important;
+    font-size: 20px !important;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-ucapan,
+.card-ucapan .card-body {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.gallery-item {
+  border-radius: 12px; /* bisa diganti 8px / 16px sesuai selera */
+  object-fit: cover;  /* supaya proporsi tetap rapi */
+}
+
+.gif-box {
+      position: relative;
+      height: 400px;
+    }
+
+    .gif-box img {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      animation: fade 9s infinite;
+    }
+
+    .gif-box img:nth-child(1) { animation-delay: 0s; }
+    .gif-box img:nth-child(2) { animation-delay: 1s; }
+    .gif-box img:nth-child(3) { animation-delay: 2s; }
+    .gif-box img:nth-child(4) { animation-delay: 3s; }
+    .gif-box img:nth-child(5) { animation-delay: 4s; }
+    .gif-box img:nth-child(6) { animation-delay: 5s; }
+    .gif-box img:nth-child(7) { animation-delay: 6s; }
+    .gif-box img:nth-child(8) { animation-delay: 7s; }
+    .gif-box img:nth-child(9) { animation-delay: 8s; }
+
+    @keyframes fade {
+        0%      { opacity: 0; }   /* mulai transparan */
+        5%      { opacity: 1; }   /* fade IN */
+        11.11%  { opacity: 1; }   /* tampil penuh */
+        16.11%  { opacity: 0; }   /* fade OUT */
+        100%    { opacity: 0; }   /* tunggu giliran */
+    }
