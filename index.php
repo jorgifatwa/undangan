@@ -6,12 +6,12 @@
     <title>Fitri & Fahadz Wedding</title>
     <link rel="stylesheet" href="index.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta property="og:image" content="https://Fitri-Fahadz.uo-apps.id/images/icon-link.jpg">
+    <meta property="og:image" content="https://uo-apps.online/images/icon-link.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="800">
     <meta property="og:description" content="Ya allah, dengan segala kesucian hati, kami bersujud memohon Ridho-Mu, untuk menuju Sunnah Rasul-Mu, membentuk keluarga yang sakinah, mawaddah, warohmah">
-    <meta property="og:url" content="https://Fitri-Fahadz.uo-apps.id">
+    <meta property="og:url" content="https://uo-apps.online">
     <meta property="og:type" content="invitation" />
     <meta property="og:title" content="Wedding Invitation - Fitri & Fahadz" />
     <link rel="icon" type="image/x-icon" href="images/filter-logoo.png">
@@ -442,7 +442,7 @@
       }
     })
     // Set the date we're counting down to
-    var countDownDate = new Date("January 10, 2026 08:00:00").getTime();
+    var countDownDate = new Date("April 05, 2026 08:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
