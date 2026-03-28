@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="index.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="og:image" content="https://uo-apps.online/images/icon-link.jpg">
+    <meta property="og:image:secure_url" content="https://uo-apps.online/images/icon-link.jpg">
+    <meta property="og:image:alt" content="Wedding Fitri & Fahadz">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="800">
     <meta property="og:description" content="Ya allah, dengan segala kesucian hati, kami bersujud memohon Ridho-Mu, untuk menuju Sunnah Rasul-Mu, membentuk keluarga yang sakinah, mawaddah, warohmah">
     <meta property="og:url" content="https://uo-apps.online">
-    <meta property="og:type" content="invitation" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Wedding Invitation - Fitri & Fahadz" />
     <link rel="icon" type="image/x-icon" href="images/filter-logoo.png">
     <link rel="stylesheet" href="js/jquery.yzhanimageviewer.min.css">
